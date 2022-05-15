@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurama.API", "Kurama.API\Kurama.API.csproj", "{1DB74D71-E1F5-449A-A907-84BF0E89B0EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurama.Data", "Kurama.Data\Kurama.Data.csproj", "{29EF511C-14E0-45EC-9F5B-D4CEC46FC9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurama.Application", "Kurama.Application\Kurama.Application.csproj", "{8CD7C706-6E5A-4BA6-ACE6-8B142983A34A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurama.Domain", "Kurama.Domain\Kurama.Domain.csproj", "{FF4477E3-5110-4539-8448-92B73A0A2FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurama.IOC", "Kurama.IOC\Kurama.IOC.csproj", "{76142DBC-BD72-442A-A88D-418A79B8A5F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurama.CrossCutting", "Kurama.CrossCutting\Kurama.CrossCutting.csproj", "{45D1F47C-FFCB-4BD9-BC2C-ADDEF34421E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB74D71-E1F5-449A-A907-84BF0E89B0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB74D71-E1F5-449A-A907-84BF0E89B0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB74D71-E1F5-449A-A907-84BF0E89B0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB74D71-E1F5-449A-A907-84BF0E89B0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EF511C-14E0-45EC-9F5B-D4CEC46FC9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EF511C-14E0-45EC-9F5B-D4CEC46FC9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EF511C-14E0-45EC-9F5B-D4CEC46FC9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EF511C-14E0-45EC-9F5B-D4CEC46FC9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD7C706-6E5A-4BA6-ACE6-8B142983A34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD7C706-6E5A-4BA6-ACE6-8B142983A34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD7C706-6E5A-4BA6-ACE6-8B142983A34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD7C706-6E5A-4BA6-ACE6-8B142983A34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4477E3-5110-4539-8448-92B73A0A2FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4477E3-5110-4539-8448-92B73A0A2FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4477E3-5110-4539-8448-92B73A0A2FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4477E3-5110-4539-8448-92B73A0A2FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76142DBC-BD72-442A-A88D-418A79B8A5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76142DBC-BD72-442A-A88D-418A79B8A5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76142DBC-BD72-442A-A88D-418A79B8A5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76142DBC-BD72-442A-A88D-418A79B8A5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D1F47C-FFCB-4BD9-BC2C-ADDEF34421E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D1F47C-FFCB-4BD9-BC2C-ADDEF34421E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D1F47C-FFCB-4BD9-BC2C-ADDEF34421E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D1F47C-FFCB-4BD9-BC2C-ADDEF34421E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF1DB665-CBB7-4A82-9D8E-5D34611087A1}
+	EndGlobalSection
+EndGlobal

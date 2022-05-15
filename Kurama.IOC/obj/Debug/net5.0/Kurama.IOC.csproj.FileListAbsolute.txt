@@ -1,0 +1,7 @@
+C:\Users\renan\OneDrive\Documentos\projects\Kurama\Kurama.IOC\bin\Debug\net5.0\Kurama.Data.dll
+C:\Users\renan\OneDrive\Documentos\projects\Kurama\Kurama.IOC\bin\Debug\net5.0\Kurama.Domain.dll
+C:\Users\renan\OneDrive\Documentos\projects\Kurama\Kurama.IOC\obj\Debug\net5.0\Kurama.IOC.csprojAssemblyReference.cache
+C:\Users\renan\OneDrive\Documentos\projects\Kurama\Kurama.IOC\obj\Debug\net5.0\Kurama.IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\OneDrive\Documentos\projects\Kurama\Kurama.IOC\obj\Debug\net5.0\Kurama.IOC.AssemblyInfoInputs.cache
+C:\Users\renan\OneDrive\Documentos\projects\Kurama\Kurama.IOC\obj\Debug\net5.0\Kurama.IOC.AssemblyInfo.cs
+C:\Users\renan\OneDrive\Documentos\projects\Kurama\Kurama.IOC\bin\Debug\net5.0\Kurama.CrossCutting.dll

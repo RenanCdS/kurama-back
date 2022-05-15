@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aBdBzVBh1faX31Ks5u84PnQcf7AGl/TT8PEPn+s5OzdIVfI2AXfj9U16rkcM23KffVa8bI3pJOu0nxrFZgr1qA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\Kurama.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renan\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
