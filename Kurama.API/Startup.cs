@@ -1,16 +1,14 @@
+using Kurama.API.Profiles;
+using Kurama.Application.Queries;
 using Kurama.CrossCutting.Options;
+using Kurama.IOC;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Kurama.API
 {
@@ -28,6 +26,11 @@ namespace Kurama.API
         {
             services.Configure<DockerConfigOptions>(Configuration.GetSection("DockerConfig"));
 
+            services.AddHttpClient();
+
+            services.AddFacades();
+            services.AddMediatR(typeof(GetContainersQuery).Assembly);
+            services.AddAutoMapper(typeof(ContainersProfile).Assembly);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

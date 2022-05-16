@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "8RRIPJnNybAn5NGn+uKY0It8HxCaMUlnkdHjLHZwBw/rCGD195iiZlWvwyC9Gck3iE58CotmrdlXdUdpUDoYkw==",
+  "dgSpecHash": "8DaAxJcwr5SVb94lztKgGk09oGsa7RZZNawvvATFe4r2IJZnav09o9pp8p7Re1TU4RBl913J1Ik1eHOiIIFxCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Application\\Kurama.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Application\\Kurama.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renan\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

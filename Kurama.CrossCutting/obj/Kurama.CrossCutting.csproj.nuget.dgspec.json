@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {}
+    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
+    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
         "projectName": "Kurama.CrossCutting",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

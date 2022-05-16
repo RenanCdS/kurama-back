@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj",
       "projectName": "Kurama.Domain",
-      "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj",
+      "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\obj\\",
+      "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

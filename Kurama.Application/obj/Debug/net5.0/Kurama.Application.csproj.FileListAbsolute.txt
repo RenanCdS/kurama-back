@@ -1,0 +1,15 @@
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\bin\Debug\net5.0\Kurama.Domain.dll
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\Kurama.Application.csprojAssemblyReference.cache
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\Kurama.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\Kurama.Application.AssemblyInfoInputs.cache
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\Kurama.Application.AssemblyInfo.cs
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\Kurama.Application.csproj.CoreCompileInputs.cache
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\bin\Debug\net5.0\Kurama.Application.deps.json
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\bin\Debug\net5.0\Kurama.Application.dll
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\bin\Debug\net5.0\ref\Kurama.Application.dll
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\bin\Debug\net5.0\Kurama.Application.pdb
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\bin\Debug\net5.0\Kurama.Domain.pdb
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\Kurama.Application.csproj.CopyComplete
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\Kurama.Application.dll
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\ref\Kurama.Application.dll
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.Application\obj\Debug\net5.0\Kurama.Application.pdb

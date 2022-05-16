@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\Kurama.IOC.csproj": {}
+    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\Kurama.IOC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
+    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
         "projectName": "Kurama.CrossCutting",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\Kurama.Data.csproj": {
+    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\Kurama.Data.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj",
         "projectName": "Kurama.Data",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\Kurama.Data.csproj",
+        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\obj\\",
+        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj"
+              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj"
+              },
+              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj"
               }
             }
           }
@@ -104,6 +107,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[107.3.0, )"
@@ -128,14 +135,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj": {
+    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj",
         "projectName": "Kurama.Domain",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj",
+        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\obj\\",
+        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -185,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\Kurama.IOC.csproj": {
+    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\Kurama.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\Kurama.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\Kurama.IOC.csproj",
         "projectName": "Kurama.IOC",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\Kurama.IOC.csproj",
+        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\Kurama.IOC.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\obj\\",
+        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -212,14 +219,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj"
+              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj"
               },
-              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\Kurama.Data.csproj": {
-                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\Kurama.Data.csproj"
+              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj": {
+                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj"
               },
-              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj"
+              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj": {
+                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj"
               }
             }
           }

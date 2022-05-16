@@ -67,6 +67,19 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+        }
+      },
       "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -138,7 +151,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Kurama.CrossCutting": "1.0.0",
           "Kurama.Domain": "1.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
           "RestSharp": "107.3.0"
         },
         "compile": {
@@ -253,6 +268,27 @@
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -398,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\Kurama.IOC.csproj",
+      "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\Kurama.IOC.csproj",
       "projectName": "Kurama.IOC",
-      "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\Kurama.IOC.csproj",
+      "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\Kurama.IOC.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\obj\\",
+      "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -422,14 +458,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj"
+            "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj"
             },
-            "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\Kurama.Data.csproj": {
-              "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Data\\Kurama.Data.csproj"
+            "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj": {
+              "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj"
             },
-            "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj": {
-              "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.Domain\\Kurama.Domain.csproj"
+            "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj": {
+              "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj"
             }
           }
         }

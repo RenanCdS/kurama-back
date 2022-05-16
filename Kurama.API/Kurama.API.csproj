@@ -5,11 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Kurama.Application\Kurama.Application.csproj" />
     <ProjectReference Include="..\Kurama.CrossCutting\Kurama.CrossCutting.csproj" />
+    <ProjectReference Include="..\Kurama.IOC\Kurama.IOC.csproj" />
   </ItemGroup>
 
 </Project>

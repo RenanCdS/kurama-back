@@ -15,7 +15,6 @@ namespace Kurama.IOC
         public static IServiceCollection AddOptions(this IServiceCollection services)
         {
 
-            var configuration = services.BuildServiceProvider().GetRequiredService<IConfiguration>(
             return services;
         }
     }

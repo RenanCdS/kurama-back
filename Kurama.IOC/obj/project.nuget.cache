@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "H+Jhtf4l/T07vt6OvJkkjGL2hc/36/mNRXRVN8n5+m+2Fw7b1xe21jasWGvE6IhgXbNq0+8rfmiHR781HNM+cw==",
+  "dgSpecHash": "nLS/5CXZMplywBtmI4hx+QvJpkFHbm5ksDzO24LJoO7r4jFEJCGaQU7F47P6Ioudtf2SrzJL2RLlDMVe3kpVfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\Kurama\\Kurama.IOC\\Kurama.IOC.csproj",
+  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.IOC\\Kurama.IOC.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
