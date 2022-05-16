@@ -126,5 +126,74 @@ namespace Kurama.Data.Facades
             }
             return Response<bool>.Ok();
         }
+
+        public async Task<Response<bool>> PullImageAsync(string imageName)
+        {
+            var pullImageResponse = await _httpClient.PostAsync($"{_dockerConfig.DockerHost}/images/create?fromImage={imageName}&tag=latest", null);
+
+            if (!pullImageResponse.IsSuccessStatusCode)
+            {
+                var pullImageResponseString = await pullImageResponse.Content.ReadAsStringAsync();
+                var pullImageResponseDto = JsonSerializer.Deserialize<PullImageResponseDto>(pullImageResponseString, new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
+                return Response<bool>.Fail(pullImageResponseDto.Message);
+            }
+
+            return Response<bool>.Ok();
+        }
+
+        public async Task<Response<IEnumerable<ImageDto>>> GetAllImagesAsync()
+        {
+            var getImagesResponse = await _httpClient.GetAsync($"{_dockerConfig.DockerHost}/images/json");
+
+            var getImagesResponseBody = await getImagesResponse.Content.ReadAsStringAsync();
+
+            var images = JsonSerializer.Deserialize<IEnumerable<ImageDto>>(getImagesResponseBody);
+            return Response<IEnumerable<ImageDto>>.Ok(images);
+        }
+
+        public async Task<Response<bool>> DeleteAllImagesAsync()
+        {
+            var allImagesResponse = await GetAllImagesAsync();
+            if (!allImagesResponse.IsSuccess)
+            {
+                return Response<bool>.Fail();
+            }
+            var allImages = allImagesResponse.Value;
+            var deletedImages = new List<string>();
+
+            foreach (var image in allImages)
+            {
+                var deleteImageResponse = await DeleteImage(image.Id);
+                if (deleteImageResponse.IsSuccess)
+                {
+                    deletedImages.Add(image.Id);
+                }
+            }
+
+            return Response<bool>.Ok();
+        }
+
+        private async Task<Response<bool>> DeleteImage(string imageId)
+        {
+            var deleteImageResponse = await _httpClient.DeleteAsync($"{_dockerConfig.DockerHost}/images/{imageId}");
+
+            if (!deleteImageResponse.IsSuccessStatusCode)
+            {
+                return Response<bool>.Fail();
+            }
+
+            return Response<bool>.Ok();
+        }
+
+        public async Task<Response<bool>> DeleteImageByIdAsync(string imageId)
+        {
+            var deleteImageByIdResponse = await _httpClient.DeleteAsync($"{_dockerConfig.DockerHost}/images/{imageId}");
+
+            if (!deleteImageByIdResponse.IsSuccessStatusCode)
+            {
+                return Response<bool>.Fail();
+            }
+            return Response<bool>.Ok();
+        }
     }
 }

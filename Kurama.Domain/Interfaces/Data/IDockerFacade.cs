@@ -11,5 +11,9 @@ namespace Kurama.Domain.Interfaces.Data
         Task<Response<bool>> CreateContainerAsync(CreateContainerDto createContainerDto);
         Task<Response<bool>> DeleteAllContainersAsync();
         Task<Response<bool>> DeleteContainerByIdAsync(string containerId);
+        Task<Response<bool>> PullImageAsync(string imageName);
+        Task<Response<IEnumerable<ImageDto>>> GetAllImagesAsync();
+        Task<Response<bool>> DeleteAllImagesAsync();
+        Task<Response<bool>> DeleteImageByIdAsync(string imageId);
     }
 }
