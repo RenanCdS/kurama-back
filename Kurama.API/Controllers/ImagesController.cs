@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace Kurama.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [ApiVersion("1.0")]
+    [Route("/api/v{version:apiVersion}/[controller]")]
     public class ImagesController : ControllerBase
     {
         private readonly IMediator _mediator;

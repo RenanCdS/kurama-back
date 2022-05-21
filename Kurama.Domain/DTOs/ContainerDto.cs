@@ -10,5 +10,6 @@ namespace Kurama.Domain.DTOs
         public string ImageID { get; set; }
         public string Status { get; set; }
         public long Created { get; set; }
+        public string State { get; set; }
     }
 }

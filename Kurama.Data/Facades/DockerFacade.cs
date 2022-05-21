@@ -54,7 +54,7 @@ namespace Kurama.Data.Facades
 
         public async Task<IEnumerable<ContainerDto>> GetContainersAsync()
         {
-            var getContainersResponse = await _httpClient.GetAsync($"{_dockerConfig.DockerHost}/containers/json");
+            var getContainersResponse = await _httpClient.GetAsync($"{_dockerConfig.DockerHost}/containers/json?all=true");
 
             var getContainersResponseBody = await getContainersResponse.Content.ReadAsStringAsync();
 
@@ -103,7 +103,7 @@ namespace Kurama.Data.Facades
                 return Response<bool>.Fail("Container não encontrado");
             }
 
-            if (!stopContainerResponse.IsSuccessStatusCode)
+            if (stopContainerResponse.StatusCode >= System.Net.HttpStatusCode.BadRequest)
             {
                 return Response<bool>.Fail();
             }
@@ -175,7 +175,7 @@ namespace Kurama.Data.Facades
 
         private async Task<Response<bool>> DeleteImage(string imageId)
         {
-            var deleteImageResponse = await _httpClient.DeleteAsync($"{_dockerConfig.DockerHost}/images/{imageId}");
+            var deleteImageResponse = await _httpClient.DeleteAsync($"{_dockerConfig.DockerHost}/images/{imageId}?force=true");
 
             if (!deleteImageResponse.IsSuccessStatusCode)
             {
