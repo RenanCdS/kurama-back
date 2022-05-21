@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ooKOux0qvl+GUS47yz0H54/O8mkuFMo995lRzCt5QUl6/0UGnRDXjmwv/Q8rE91P2FicluPyIYDN+VZbcEMdMA==",
+  "dgSpecHash": "svaGSoH0MF2PFqpbmDzIbOzpaLBg0PXdoKcD33xfALihDrAgAS0CMHDnnfIjRHTi6qAvfFxQpKVcfwceIS8VSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj",
+  "projectFilePath": "/home/renan/Documents/projects/kurama-back/Kurama.Domain/Kurama.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

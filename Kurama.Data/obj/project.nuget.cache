@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "C80F+1syWcKFbX/qgMX8yncs97/7yHk6GM0Vs+0zChxZrcFhlAHPNDj5Iaqml9E9NLghYI6aIQYDIB8SgM1YQQ==",
+  "dgSpecHash": "m5YMI2e/ZwPrRU6g3/A4Arki2Dzce01TRl1Heo2QmYf7h/C+K9itY44sqwnuUhEbSk/Rg/f3U7EQZOFKtIzGMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj",
+  "projectFilePath": "/home/renan/Documents/projects/kurama-back/Kurama.Data/Kurama.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+    "/home/renan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/renan/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/renan/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/renan/.nuget/packages/restsharp/107.3.0/restsharp.107.3.0.nupkg.sha512",
+    "/home/renan/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/renan/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

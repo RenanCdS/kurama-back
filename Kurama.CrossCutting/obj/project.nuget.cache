@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zeV5gZ2vlDom7apn9ZuTehLz9wRMym+X+dysgpst0qKiLjLgOLqETcPkHk09yf4UwuWtl1uaxlRXaClQYF3gVg==",
+  "dgSpecHash": "x17gJJmrETR/uLo4K1Afsyd8xVMpxb/YRRKjwl/O0qt0sITbXFag0H918xVJVxxlDIo9x3vuyQYcHvIVqm+1tQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
+  "projectFilePath": "/home/renan/Documents/projects/kurama-back/Kurama.CrossCutting/Kurama.CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

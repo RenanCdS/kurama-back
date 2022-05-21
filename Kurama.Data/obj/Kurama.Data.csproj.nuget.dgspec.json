@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj": {}
+    "/home/renan/Documents/projects/kurama-back/Kurama.Data/Kurama.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
+    "/home/renan/Documents/projects/kurama-back/Kurama.CrossCutting/Kurama.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
+        "projectUniqueName": "/home/renan/Documents/projects/kurama-back/Kurama.CrossCutting/Kurama.CrossCutting.csproj",
         "projectName": "Kurama.CrossCutting",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\obj\\",
+        "projectPath": "/home/renan/Documents/projects/kurama-back/Kurama.CrossCutting/Kurama.CrossCutting.csproj",
+        "packagesPath": "/home/renan/.nuget/packages/",
+        "outputPath": "/home/renan/Documents/projects/kurama-back/Kurama.CrossCutting/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/renan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,42 +52,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/167/sdk/5.0.408/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj": {
+    "/home/renan/Documents/projects/kurama-back/Kurama.Data/Kurama.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj",
+        "projectUniqueName": "/home/renan/Documents/projects/kurama-back/Kurama.Data/Kurama.Data.csproj",
         "projectName": "Kurama.Data",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\Kurama.Data.csproj",
-        "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Data\\obj\\",
+        "projectPath": "/home/renan/Documents/projects/kurama-back/Kurama.Data/Kurama.Data.csproj",
+        "packagesPath": "/home/renan/.nuget/packages/",
+        "outputPath": "/home/renan/Documents/projects/kurama-back/Kurama.Data/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/renan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.CrossCutting\\Kurama.CrossCutting.csproj"
+              "/home/renan/Documents/projects/kurama-back/Kurama.CrossCutting/Kurama.CrossCutting.csproj": {
+                "projectPath": "/home/renan/Documents/projects/kurama-back/Kurama.CrossCutting/Kurama.CrossCutting.csproj"
               },
-              "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj": {
-                "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj"
+              "/home/renan/Documents/projects/kurama-back/Kurama.Domain/Kurama.Domain.csproj": {
+                "projectPath": "/home/renan/Documents/projects/kurama-back/Kurama.Domain/Kurama.Domain.csproj"
               }
             }
           }
@@ -131,31 +121,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/167/sdk/5.0.408/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj": {
+    "/home/renan/Documents/projects/kurama-back/Kurama.Domain/Kurama.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj",
+        "projectUniqueName": "/home/renan/Documents/projects/kurama-back/Kurama.Domain/Kurama.Domain.csproj",
         "projectName": "Kurama.Domain",
-        "projectPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\Kurama.Domain.csproj",
-        "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.Domain\\obj\\",
+        "projectPath": "/home/renan/Documents/projects/kurama-back/Kurama.Domain/Kurama.Domain.csproj",
+        "packagesPath": "/home/renan/.nuget/packages/",
+        "outputPath": "/home/renan/Documents/projects/kurama-back/Kurama.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/renan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -188,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/167/sdk/5.0.408/RuntimeIdentifierGraph.json"
         }
       }
     }
