@@ -49,3 +49,4 @@ C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.API\bin\Debug\net
 C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.API\bin\Debug\net5.0\Kurama.IOC.pdb
 C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.API\bin\Debug\net5.0\Kurama.Data.pdb
 C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.API\obj\Debug\net5.0\Kurama.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\renan\OneDrive\Documentos\projects\kurama-back\Kurama.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll

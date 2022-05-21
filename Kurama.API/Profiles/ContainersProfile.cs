@@ -12,20 +12,25 @@ namespace Kurama.API.Profiles
             CreateMap<CreateContainerCommand, CreateContainerDto>()
                 .ForMember(dest => dest.Env,
                             opt => opt.MapFrom(s => s.EnvironmentVariables))
-                .ForMember(dest => dest.PortBindings,
-                            opt => opt.MapFrom(s => new Dictionary<string, dynamic>()
+                .ForMember(dest => dest.HostConfig,
+                            opt => opt.MapFrom(s => new HostConfig() { PortBindings = GetPortBinding(s.InternalPort, s.ExternalPort) })); ;
+
+        }
+
+        private Dictionary<string, dynamic> GetPortBinding(int internalPort, int externalPort)
+        {
+            return new Dictionary<string, dynamic>()
                             {
-                                {  
-                                    $"{s.InternalPort}/tcp",  new List<Dictionary<string, string>>()
+                                {
+                                    $"{internalPort}/tcp",  new List<Dictionary<string, string>>()
                                     {
                                         new Dictionary<string, string>()
                                         {
-                                            {  "hostPort", $"{s.ExternalPort}" } 
+                                            {  "hostPort", $"{externalPort}" }
                                         }
                                     }
                                 }
-                            }));
-
+                            };
         }
     }
 }

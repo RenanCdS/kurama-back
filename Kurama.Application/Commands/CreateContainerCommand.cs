@@ -8,7 +8,7 @@ namespace Kurama.Application.Commands
     {
         public string Image { get; set; }
         public IEnumerable<string> EnvironmentVariables { get; set; }
-        public string ExternalPort { get; set; }
-        public string InternalPort { get; set; }
+        public int ExternalPort { get; set; }
+        public int InternalPort { get; set; }
     }
 }

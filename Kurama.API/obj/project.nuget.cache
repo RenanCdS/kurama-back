@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UoJ1nE9QXpF0BonNYjHEZYC8MLoi5suKVwmST8ytclV6ZpEk4+I7Njye0sLylNmxNWbz5jtY+dZ47MpheQX5jw==",
+  "dgSpecHash": "cBix35UbCvGBezYNHd28SPlRybNwclcE0DQpPd5YrGCeaepkkclrXZwZ1y9z8ixzsvPUkR2tMIx7YDRiqsLbkQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\projects\\kurama-back\\Kurama.API\\Kurama.API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\renan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

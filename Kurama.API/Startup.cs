@@ -28,6 +28,10 @@ namespace Kurama.API
 
             services.AddHttpClient();
 
+            services.AddApiVersioning();
+
+            services.AddCors();
+
             services.AddFacades();
             services.AddMediatR(typeof(GetContainersQuery).Assembly);
             services.AddAutoMapper(typeof(ContainersProfile).Assembly);
@@ -48,7 +52,11 @@ namespace Kurama.API
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Kurama.API v1"));
             }
 
+            app.UseCors(options => options.AllowAnyOrigin()
+                                .AllowAnyMethod()
+                                .AllowAnyHeader());
             app.UseRouting();
+            app.UseApiVersioning();
 
             app.UseAuthorization();
 
